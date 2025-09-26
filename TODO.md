@@ -1,0 +1,1 @@
+- [x] Update Navbar.css: Change gradient stops to 0% and 100%, add color: white;
