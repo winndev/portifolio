@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Portfolio Improvements TODO
 
 - [x] Update Navbar.jsx: Make sticky with backdrop blur, add hover underline/background to nav links, replace connect button with social icons
@@ -13,3 +14,6 @@
 - [x] Fix text colors in Hero section: Make paragraph text responsive to light/dark mode
 - [x] Adjust navbar size: Change margins to padding for navbar to start from top
 - [ ] Test responsiveness and functionality: Launch dev server, check mobile stacking, anchor links, hover effects, dark mode toggle
+=======
+- Update .about-achievements hr in About.css to height: 8px and background: white for visibility.
+>>>>>>> fc6bdab812619d32da647e0b856743f82d362b7c
