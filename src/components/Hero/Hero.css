@@ -2,18 +2,21 @@
     display: flex;
     align-items: center;
     flex-direction: column;
-    gap: 35px   ;
+    gap: 2rem;
 }
 
 .hero img{
-margin-top:150px;  
-border-radius: 30px 20px;
-width: 20%;
+margin-top:9.375rem;
+max-width: 300px;
+width: 70%;
+height: auto;
+border-radius: 50%;
+object-fit: cover;
 }
 .hero h1{
     text-align: center;
     width: 70%;
-    font-size: 60px;
+    font-size: 3.75rem;
     font-weight: 600;
 
 }
@@ -28,19 +31,20 @@ width: 20%;
 .hero p{
     width: 50%;
     text-align: center;
-    font-size: 24px;
-    line-height: 40px;
+    font-size: 1.5rem;
+    line-height: 2.5rem;
 }
 .hero-action{
     display: flex;
     align-items: center;
-    gap: 25px;
-    font-size: 24px;
+    gap: 1.5625rem;
+    font-size: 1.5rem;
     font-weight:500;
-    margin-bottom: 50px;
+    margin-bottom: 3.125rem;
+    flex-wrap: wrap;
 }
 .hero-connect{
-    padding: 25px 45px;
+    padding: 1.5625rem 2.8125rem;
     border-radius: 50px;
     background: linear-gradient(270deg, #DF8908 10%, #B415FF 100%);
     cursor: pointer;
@@ -49,7 +53,7 @@ width: 20%;
      border: 2px solid white;
 }
 .hero-resume{
- padding: 25px 75px;
+ padding: 1.5625rem 4.6875rem;
  border-radius: 50px;
  border: 2px solid #FFF;
  cursor: pointer;   

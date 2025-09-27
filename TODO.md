@@ -1,1 +1,1 @@
-- [x] Update Navbar.css: Change gradient stops to 0% and 100%, add color: white;
+- Update .about-achievements hr in About.css to height: 8px and background: white for visibility.

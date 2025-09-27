@@ -1,16 +1,17 @@
  .navbar{
     display: flex;
     align-items: center;
-    justify-content: space-between; 
-    margin: 20px 170px;
+    justify-content: space-between;
+    margin: 20px 10vw;
+    flex-wrap: wrap;
  }
 
  .nav-menu{
     display: flex;
     align-items: center;
     list-style: none;
-    gap: 60px;
-    font-size: 20px;
+    gap: 70px;
+    font-size: 1.25rem;
 
  }
 

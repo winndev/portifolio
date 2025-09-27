@@ -8,5 +8,5 @@
   background: #161513;
   color: white;
   font-family: 'outfit';
-
+  font-size: clamp(14px, 2vw, 18px);
  }
