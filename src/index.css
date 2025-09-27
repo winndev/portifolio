@@ -1,12 +1,38 @@
- *{
-  margin:0;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg-color: #ffffff;
+  --text-color: #111827;
+  --primary-color: #007bff;
+  --secondary-bg: #f8fafc;
+  --card-bg: #ffffff;
+  --shadow: rgba(0, 0, 0, 0.1);
+}
+
+
+
+* {
+  margin: 0;
   padding: 0;
+  transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+}
 
- }
- body{
-  height: 100vh;
-  background: #161513;
-  color: white;
+body {
+  min-height: 100vh;
+  background: var(--bg-color);
+  color: var(--text-color);
   font-family: 'outfit';
+}
 
- }
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg-color: #121212;
+    --text-color: #ffffff;
+    --primary-color: #4dabf7;
+    --secondary-bg: #1e1e1e;
+    --card-bg: #1a1a1a;
+    --shadow: rgba(255, 255, 255, 0.1);
+  }
+}
